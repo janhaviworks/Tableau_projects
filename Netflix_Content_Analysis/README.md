@@ -20,10 +20,10 @@ This project analyzes Netflix's content library using an interactive Power BI da
 
 ## 🛠️ Tools & Technologies
 
-* **Power BI**
 * **Microsoft Excel**
-* **Power Query**
-* **DAX**
+* **Tableau**
+
+
 
 ---
 
