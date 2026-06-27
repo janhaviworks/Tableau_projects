@@ -1,56 +1,101 @@
-🎬 Netflix Content Analysis Dashboard
+<img width="2880" height="1800" alt="Netflix Dashboard" src="https://github.com/user-attachments/assets/8e7265d8-0787-4b16-9aae-cf7681682dfe" />
 
-📌 Project Overview
+# 📺 Netflix Content Analysis Dashboard
 
-This project analyzes Netflix's content library using Tableau to uncover trends in movies and TV shows, content distribution, ratings, genres, and country-wise contributions.
+## 📌 Project Overview
 
-🎯 Problem Statement
+This project analyzes Netflix's content library using an interactive Power BI dashboard. The objective is to explore trends in content type, release years, genres, ratings, and country-wise distribution to uncover valuable business insights.
 
-The objective of this project is to analyze Netflix's content catalog and answer key business questions such as:
+---
 
-- What is the distribution of Movies vs TV Shows?
-- Which countries contribute the most Netflix content?
-- How has Netflix's content library grown over time?
-- Which genres are the most popular?
-- What are the most common content ratings?
+## 🎯 Objectives
 
-🛠️ Tools Used
+* Analyze the distribution of Movies and TV Shows.
+* Identify the countries contributing the most content.
+* Examine trends in content addition over the years.
+* Explore popular genres and content ratings.
+* Build an interactive dashboard for better decision-making.
 
-- Tableau
-- Microsoft Excel (Data Cleaning)
+---
 
-📊 Dashboard Features
+## 🛠️ Tools & Technologies
 
-- Total Titles KPI
-- Total Movies KPI
-- Total TV Shows KPI
-- Content Added Over Time
-- Movies vs TV Shows Analysis
-- Top 10 Countries
-- Top Genres
-- Most Common Content Ratings
+* **Power BI**
+* **Microsoft Excel**
+* **Power Query**
+* **DAX**
 
-💡 Key Insights
+---
 
-- Movies make up the majority of Netflix's content library.
-- The United States contributes the highest number of titles.
-- Netflix experienced rapid content growth between 2016 and 2019.
-- Drama and International Movies are among the most common genres.
-- TV-MA is the most frequent content rating.
+## 📂 Dataset
 
-📁 Dataset
+The dataset contains information about Netflix titles, including:
 
-Netflix Titles Dataset
+* Title
+* Type (Movie / TV Show)
+* Director
+* Cast
+* Country
+* Date Added
+* Release Year
+* Rating
+* Duration
+* Genre
 
-🚀 Skills Demonstrated
+---
 
-- Data Cleaning
-- Data Visualization
-- Dashboard Design
-- KPI Creation
-- Trend Analysis
-- Business Insights
+## 🧹 Data Cleaning
 
-<img width="2880" height="1800" alt="Netflix Dashboard" src="https://github.com/user-attachments/assets/723523ed-11aa-4039-a770-1c426b62dd34" />
+The following preprocessing steps were performed before visualization:
 
+* Removed duplicate records
+* Handled missing values
+* Standardized column names
+* Formatted date fields
+* Created calculated columns where required
+
+---
+
+## 📊 Dashboard Features
+
+The dashboard includes:
+
+* Movies vs TV Shows distribution
+* Country-wise content analysis
+* Content added by year
+* Rating distribution
+* Genre analysis
+* Interactive filters and slicers
+
+---
+
+## 🔍 Key Insights
+
+* 📺 Movies account for a larger share of Netflix's catalog compared to TV Shows.
+* 🌍 The United States contributes the highest number of titles on the platform.
+* 📈 A significant increase in content additions can be observed between **2018–2020**, indicating Netflix's rapid content expansion during that period.
+* 🎭 Drama and International Movies are among the most frequently available genres.
+* 🔞 A large portion of Netflix's content falls under the **TV-MA** rating, suggesting a strong focus on mature audiences.
+* 📅 Most available titles were released after **2015**, highlighting Netflix's emphasis on relatively recent content.
+
+---
+
+## 💼 Business Recommendations
+
+* Increase investment in genres that consistently attract viewers.
+* Expand original content production in emerging international markets.
+* Maintain a balanced mix of Movies and TV Shows to improve audience engagement.
+* Analyze audience preferences across content ratings to optimize future acquisitions.
+* Continue investing in recently released content while maintaining a quality classic library.
+
+---
+
+
+## 🚀 Conclusion
+
+This dashboard provides an interactive overview of Netflix's content library and helps identify content trends, regional distribution, and genre preferences. The insights generated can support strategic decisions related to content acquisition, production, and audience targeting.
+
+---
+
+⭐ If you found this project interesting, feel free to explore the repository and connect with me on LinkedIn!
 
